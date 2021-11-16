@@ -40,10 +40,19 @@ python3 -m pip install -r requirements.txt
 
 This will provide you all the tools needed to manipulate the data but, more importantly, it will also install datasette which is the tool we will be using to explore the data. 
 
-## Launch datasette
+### Launch datasette
 Now that you have all the packages installed you can run
 ```shell
 datasette data/nyc.db
 ```
 from the parent directory and visit your http://localhost:8001 to explore the data.
+
+### Run this on the browser using Codespaces
+This is the easiest way to get started.
+
+Just visit: https://github.com/codespaces/we-are-alluma-nyc-social-services-data-4vxg997gfqvg6 
+
+In the terminal run `pip install -r requirements.txt` to install all packages (they might be already installed).
+
+After, run `datasette data/nyc.db` and click the button **Open in browser** in the notification letting you know that datasette is running and being forwarded to the specified URL. 
 
