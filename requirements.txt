@@ -1,4 +1,5 @@
 csvs-to-sqlite==1.2
+datasette==0.59.2
 datasette-cluster-map==0.17.1
 datasette-vega==0.6.2
 ipykernel==6.5.0
